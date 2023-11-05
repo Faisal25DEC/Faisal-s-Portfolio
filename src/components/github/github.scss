@@ -1,0 +1,42 @@
+.leetcode-github-info-wrapper {
+  background: linear-gradient(180deg, #111132, #0c0c1d);
+  height: 100%;
+}
+
+.leetcode-github-info-wrapper > h1 {
+  padding-top: 3rem;
+  font-size: 4.2rem;
+  text-align: center;
+  font-weight: 200;
+}
+.stats-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  margin-top: 3rem;
+}
+.stats-second > div {
+  flex-basis: 33%;
+}
+.stats-second #github-top-langs {
+  width: 70%;
+}
+.stats-third {
+  margin: auto;
+  margin-top: 4rem;
+}
+.stats-third h4 {
+  text-align: center;
+}
+.stats-third img {
+  display: block;
+  margin: auto;
+  margin-top: 0.5rem;
+  height: 12rem;
+  width: 65%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 2rem;
+  border-radius: 15px;
+  background-color: transparent;
+}
