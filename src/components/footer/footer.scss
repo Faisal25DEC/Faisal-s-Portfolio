@@ -1,0 +1,32 @@
+#footer {
+  height: fit-content;
+  background: linear-gradient(180deg, #0c0c1d, #111132);
+  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+  margin-top: 1.5rem;
+  color: white;
+}
+.footer-name {
+  text-align: center;
+}
+#footer-bottom-profiles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1.6rem;
+}
+#footer-bottom-profiles img {
+  width: 25px;
+  height: 25px;
+}
+.footer-end {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 1rem;
+}
+.footer-name {
+  color: rgb(255, 254, 254);
+  font-weight: 700;
+  font-size: 28px;
+}

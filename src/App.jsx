@@ -6,6 +6,8 @@ import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
+import Skills from "./components/skills/Skills";
 const App = () => {
   return (
     <div>
@@ -27,10 +29,17 @@ const App = () => {
       </section>
 
       <Portfolio />
-
+      <section>
+        <Parallax type="skills" />
+      </section>
+      <section>
+        <Skills />
+      </section>
       <section>
         <Contact />
       </section>
+
+      <Footer />
     </div>
   );
 };
