@@ -66,6 +66,19 @@
           width: 200px;
           cursor: pointer;
         }
+        .buttonContainer {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .techStack {
+            display: flex;
+            gap: 10px;
+            img {
+              width: 25px;
+              height: 25px;
+            }
+          }
+        }
       }
     }
   }
