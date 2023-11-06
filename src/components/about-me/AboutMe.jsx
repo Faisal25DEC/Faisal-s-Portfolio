@@ -73,7 +73,7 @@ const AboutMe = () => {
           </p>
           <button>
             {" "}
-            <img src="../../../public/linkedin.png" alt="" /> Go
+            <img src="/linkedin.png" alt="" /> Go
           </button>
         </motion.div>
         <motion.div
@@ -89,7 +89,7 @@ const AboutMe = () => {
           </p>
           <button>
             {" "}
-            <img src="../../../public/github.png" alt="" /> Go
+            <img src="/github.png" alt="" /> Go
           </button>
         </motion.div>
         <motion.div
@@ -105,7 +105,7 @@ const AboutMe = () => {
           </p>
           <button>
             {" "}
-            <img src="../../../public/leetcode.png" alt="" /> Go
+            <img src="/leetcode.png" alt="" /> Go
           </button>
         </motion.div>
         <motion.div
@@ -124,7 +124,7 @@ const AboutMe = () => {
           </p>
           <button>
             {" "}
-            <img src="../../../public/certificate.png" alt="" /> Go
+            <img src="/certificate.png" alt="" /> Go
           </button>
         </motion.div>
       </motion.div>
