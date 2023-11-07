@@ -15,16 +15,32 @@ const Navbar = () => {
           Faisal
         </motion.span>
         <div className="social">
-          <a href="">
+          <a
+            href="https://leetcode.com/Faisal_24/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src="/leetcode.png" alt="" />
           </a>
-          <a href="">
+          <a
+            href="https://codeforces.com/profile/FaisalCodeGreat"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src="/codeforces.png" alt="" />
           </a>
-          <a href="">
+          <a
+            href="https://auth.geeksforgeeks.org/user/mohdfaisal2363/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src="/geeksforgeeks.png" alt="" />
           </a>
-          <a href="">
+          <a
+            href="https://github.com/Faisal25DEC"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src="/github-dark.png" alt="" />
           </a>
         </div>

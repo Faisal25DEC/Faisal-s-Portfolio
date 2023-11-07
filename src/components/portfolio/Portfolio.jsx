@@ -98,7 +98,7 @@ const Single = ({ item }) => {
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
             <div className="buttonContainer">
-              <button>See Demo</button>
+              <button>Live Link</button>
               <div className="techStack">
                 {item.techStack?.map((img, idx) => {
                   return <img src={img} key={idx} />;

@@ -71,10 +71,16 @@ const AboutMe = () => {
             , Delhi, specializing in the dynamic realm of{" "}
             <b> full-stack web development</b>
           </p>
-          <button>
-            {" "}
-            <img src="/linkedin.png" alt="" /> Go
-          </button>
+          <a
+            href="https://www.linkedin.com/in/faisal25121999/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <button>
+              {" "}
+              <img src="/linkedin.png" alt="" /> Go
+            </button>
+          </a>
         </motion.div>
         <motion.div
           className="box"
@@ -87,10 +93,16 @@ const AboutMe = () => {
               <br /> Major Projects
             </h1>
           </p>
-          <button>
-            {" "}
-            <img src="/github.png" alt="" /> Go
-          </button>
+          <a
+            href="https://github.com/Faisal25DEC"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <button>
+              {" "}
+              <img src="/github.png" alt="" /> Go
+            </button>
+          </a>
         </motion.div>
         <motion.div
           className="box"
@@ -103,10 +115,16 @@ const AboutMe = () => {
               <br /> DSA Problems
             </h1>
           </p>
-          <button>
-            {" "}
-            <img src="/leetcode.png" alt="" /> Go
-          </button>
+          <a
+            href="https://leetcode.com/Faisal_24/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <button>
+              {" "}
+              <img src="/leetcode.png" alt="" /> Go
+            </button>
+          </a>
         </motion.div>
         <motion.div
           className="box"
@@ -122,10 +140,16 @@ const AboutMe = () => {
               DSA mentor <br /> Coding Ninjas
             </h2>
           </p>
-          <button>
-            {" "}
-            <img src="/certificate.png" alt="" /> Go
-          </button>
+          <a
+            href="https://drive.google.com/file/d/1cqskSvjLVYD4QkIBewIqXjjWjYc-gi-i/view?usp=sharing"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <button>
+              {" "}
+              <img src="/certificate.png" alt="" /> Go
+            </button>
+          </a>
         </motion.div>
       </motion.div>
     </motion.div>
