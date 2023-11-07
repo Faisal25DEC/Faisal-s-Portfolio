@@ -18,7 +18,7 @@ const App = () => {
       <section>
         <Parallax type="about me" />
       </section>
-      <section id="about-me">
+      <section id="About Me">
         <AboutMe />
       </section>
       <section id="github">
@@ -32,10 +32,10 @@ const App = () => {
       <section>
         <Parallax type="skills" />
       </section>
-      <section>
+      <section id="Skills">
         <Skills />
       </section>
-      <section>
+      <section id="Contact">
         <Contact />
       </section>
 

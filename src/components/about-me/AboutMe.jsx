@@ -48,6 +48,13 @@ const AboutMe = () => {
             <b>Everything</b> About Me
           </h1>
         </div>
+        <a
+          href="https://drive.google.com/file/d/1InvIaBqOSEOiCSrM57crRzh1FnBPmd1I/view?usp=sharing"
+          target="_blank"
+          rel={"noreferrer"}
+        >
+          <motion.button className="resume">Resume</motion.button>
+        </a>
       </motion.div>
       <motion.div
         className="listContainer"

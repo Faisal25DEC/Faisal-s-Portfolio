@@ -53,11 +53,17 @@ const Hero = () => {
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
             <motion.button variants={textVariants}>
-              See the Latest Projects
+              <a href="#Projects">See the Latest Projects</a>
             </motion.button>
-            <motion.button variants={textVariants} className="contact-me">
-              Contact Me
-            </motion.button>
+            <a
+              href="https://drive.google.com/file/d/1InvIaBqOSEOiCSrM57crRzh1FnBPmd1I/view?usp=sharing"
+              target="_blank"
+              rel={"noreferrer"}
+            >
+              <motion.button variants={textVariants} className="resume">
+                Resume
+              </motion.button>
+            </a>
           </motion.div>
           <motion.img
             variants={textVariants}

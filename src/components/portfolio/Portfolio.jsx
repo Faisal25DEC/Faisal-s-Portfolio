@@ -20,6 +20,7 @@ const items = [
       "/bootstrap.svg",
       "/json-server.png",
     ],
+    live: "https://adventourr-masai.netlify.app/",
   },
   {
     id: 2,
@@ -39,6 +40,7 @@ const items = [
       "/nodejs1.png",
       "/redux.svg",
     ],
+    live: "https://medium-blog-app-pi.vercel.app/",
   },
   {
     id: 3,
@@ -57,6 +59,7 @@ const items = [
       "/json-server.png",
       "/firebase.svg",
     ],
+    live: "https://alcazar-masai.netlify.app/pages/product",
   },
   {
     id: 4,
@@ -75,6 +78,7 @@ const items = [
       "/chakra.png",
       "/redux.svg",
     ],
+    live: "",
   },
 ];
 
@@ -88,7 +92,7 @@ const Single = ({ item }) => {
   const y = useTransform(scrollYProgress, [0, 1], [-300, 300]);
 
   return (
-    <section>
+    <section id="Projects">
       <div className="container">
         <div className="wrapper">
           <div className="imageContainer" ref={ref}>
@@ -98,7 +102,10 @@ const Single = ({ item }) => {
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
             <div className="buttonContainer">
-              <button>Live Link</button>
+              <a href={item.live} target="_blank" rel="noreferrer">
+                {" "}
+                <button>Live Link</button>
+              </a>
               <div className="techStack">
                 {item.techStack?.map((img, idx) => {
                   return <img src={img} key={idx} />;
