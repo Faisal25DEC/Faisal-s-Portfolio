@@ -1,11 +1,16 @@
+@import "../../app.scss";
+
 .skills-container {
   row-gap: 3.5rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1rem 3rem;
-  width: 80%;
+  gap: 3rem 3rem;
+  width: 95%;
   margin: auto;
   margin-top: 3rem;
+  @include mobile {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .skills-title {
@@ -38,19 +43,19 @@
   align-items: center;
 }
 .skills-blob {
-  width: 150px;
-  height: 200px;
   background-color: transparent;
-
+  padding: 2rem;
   place-items: center;
   margin: auto;
 }
 .skills-blob img {
-  width: 60px;
+  width: 50%;
+  @include mobile {
+    width: 100%;
+  }
 }
 .skills-name {
   font-size: var(--small-font-size);
-  margin-bottom: 0.25rem;
 }
 .skills-subtitle {
   font-size: var(--tiny-font-size);

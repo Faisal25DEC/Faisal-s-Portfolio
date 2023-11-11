@@ -28,13 +28,15 @@ const Github = () => {
         </div>
       </div>
       <div className="stats-block stats-second">
-        <div className="github-info-card">
-          <h4>Github Languages</h4>
-          <img
-            id="github-top-langs"
-            src="https://github-readme-stats.vercel.app/api/top-langs/?username=Faisal25DEC&layout=compact&theme=nord"
-            alt="faisal25dec"
-          />
+        <div>
+          <div className="github-info-card">
+            <h4>Github Languages</h4>
+            <img
+              id="github-top-langs"
+              src="https://github-readme-stats.vercel.app/api/top-langs/?username=Faisal25DEC&layout=compact&theme=nord"
+              alt="faisal25dec"
+            />
+          </div>
         </div>
         <div className="github-info-card">
           <div className="github-rating-stats">

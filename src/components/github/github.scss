@@ -1,6 +1,9 @@
+@import "../../app.scss";
+
 .leetcode-github-info-wrapper {
   background: linear-gradient(180deg, #111132, #0c0c1d);
-  height: 100%;
+  height: fit-content;
+  padding-bottom: 2rem;
 }
 
 .leetcode-github-info-wrapper > h1 {
@@ -14,14 +17,38 @@
   justify-content: center;
   align-items: center;
   gap: 4rem;
+
   margin-top: 3rem;
+
+  #github-top-langs {
+    width: 24rem;
+    @include mobile {
+      width: 90%;
+    }
+  }
+
+  @include mobile {
+    flex-direction: column;
+  }
+  div {
+    margin: auto;
+    h4 {
+      margin-bottom: 1rem;
+    }
+    img {
+      width: 100%;
+      display: block;
+      margin-top: 1rem;
+      display: block;
+      margin: auto;
+    }
+    @include mobile {
+      width: 90%;
+      margin: auto;
+    }
+  }
 }
-.stats-second > div {
-  flex-basis: 33%;
-}
-.stats-second #github-top-langs {
-  width: 70%;
-}
+
 .stats-third {
   margin: auto;
   margin-top: 4rem;
@@ -34,7 +61,7 @@
   margin: auto;
   margin-top: 0.5rem;
   height: 12rem;
-  width: 65%;
+
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   padding: 2rem;
   border-radius: 15px;

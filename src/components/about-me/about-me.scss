@@ -1,6 +1,7 @@
+@import "../../app.scss";
 .about-me {
   background: linear-gradient(180deg, #0c0c1d, #111132);
-  height: 100%;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -11,16 +12,27 @@
     display: flex;
     align-items: center;
     gap: 20px;
+    @include mobile {
+      align-self: center;
+      text-align: center;
+      flex-direction: column;
+    }
     p {
       font-weight: 200;
       font-size: 20px;
       color: gray;
       text-align: right;
+      @include mobile {
+        display: none;
+      }
     }
     hr {
       width: 500px;
       border: none;
       border-top: 0.5px solid gray;
+      @include mobile {
+        display: none;
+      }
     }
   }
   .titleContainer {
@@ -29,14 +41,28 @@
     flex-direction: column;
     align-items: center;
 
+    @include mobile {
+      width: 100%;
+    }
+
     .title {
       display: flex;
       gap: 20px;
       align-items: center;
 
+      @include mobile {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+      }
+
       h1 {
         font-size: 90px;
         font-weight: 100;
+        @include mobile {
+          font-size: 50px;
+          margin-top: 2rem;
+        }
       }
     }
     a {
@@ -57,6 +83,11 @@
     display: flex;
     max-width: 1166px;
     margin: auto;
+    @include mobile {
+      flex-direction: column;
+      width: 80%;
+      margin-top: 1rem;
+    }
     div {
       flex: 1;
     }
@@ -69,6 +100,16 @@
     flex-direction: column;
     justify-content: space-between;
     transition: all 0.5s ease-in-out;
+
+    @include mobile {
+      border: none;
+      align-items: center;
+      gap: 20px;
+      padding: 10px;
+      border: solid 1px gray;
+      margin-top: 1rem;
+    }
+
     .box-desc {
       margin-top: 1rem;
       line-height: 1.5rem;
